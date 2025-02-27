@@ -1,7 +1,17 @@
 /*
 This file consist of the data tranformation and quality checks for the silver layer
 
-*/
+This scripts performs various quality checks for data consistency, accuracy, and standardization across the 'Silver' layer.
+It include the checks for 
+- Null or duplicate primary keys.
+- Unwanted spaces in string fields.
+- Data Standardization and Consistency.
+- Invalid date ranges and orders.
+- Data consistency between related fields.
+
+Usage Notes:
+- Run these checks after data  loading Silver layer
+- Invertigate and resolve and discrepancies found during the checks.*/
 
 
 ------Transformation for Table 1 customer info
